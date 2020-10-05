@@ -138,3 +138,37 @@ int errHandler(int value, string text)
 	
 	return value;
 }
+
+
+#include<iostream>
+using namespace std;
+void menu ();
+int main ()
+{
+ double pak = 1.89,dol = 60.67, ind = 1.1,pound = 112.56, euro = 126.54;
+ double amount ,converted_amount =0;
+ menu();
+ cin>> amount;
+ cout <<" Your Amount in PAK Rupees is : " <<amount*pak <<endl;
+ cout <<" Your Amount in Dollar is     : " <<amount*dol<<endl;
+ cout <<" Your Amount in IND Rupees is : " <<amount*ind<<endl;
+ cout <<" Your Amount in Pound is      : " <<amount*pound<<endl;
+ cout <<" Your Amount in Pak Euro is   : " <<amount*euro<<endl;
+ 
+}
+void menu()
+{
+cout<<" \n \n  \t \t \t LEP*****CURRENCY CONVERTOR*****LEP \n \n \n \n ";
+cout<< "1. Pak Rupee \n 2. Dollor \n 3. Indian Rupee \n 4. Pound \n 5. Euro \n \n  ";
+cout<<" Enter Your Amount \n ";
+}
+
+
+
+
+
+
+
+
+
+
